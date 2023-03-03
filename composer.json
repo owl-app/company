@@ -1,0 +1,47 @@
+{
+    "name": "owl/company",
+    "type": "library",
+    "description": "PHP component for managing companies.",
+    "keywords": [
+        "company",
+        "owl"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Kęska",
+            "homepage": "https://pawelkeska.eu"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "sylius/resource": "^1.7"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.9-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Owl\\Component\\Company\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
