@@ -1,7 +1,7 @@
 Company Component
 ====================
 
-PHP component for managing companies. 
+PHP component for managing companies.
 
 Authors
 -------
