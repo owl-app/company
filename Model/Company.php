@@ -127,6 +127,9 @@ class Company implements CompanyInterface
         $this->email = $email;
     }
 
+    /**
+     * @return string
+     */
     public function getTrade(): ?string
     {
         return $this->trade;
@@ -137,6 +140,9 @@ class Company implements CompanyInterface
         $this->trade = $trade;
     }
 
+    /**
+     * @return string
+     */
     public function getContactPerson(): ?string
     {
         return $this->contactPerson;
@@ -147,6 +153,9 @@ class Company implements CompanyInterface
         $this->contactPerson = $contactPerson;
     }
 
+    /**
+     * @return string
+     */
     public function getDescription(): ?string
     {
         return $this->description;
@@ -157,6 +166,9 @@ class Company implements CompanyInterface
         $this->description = $description;
     }
 
+    /**
+     * @return string
+     */
     public function getComments(): ?string
     {
         return $this->comments;
