@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Owl\Component\Company\Model;
@@ -27,7 +28,7 @@ interface CompanyInterface extends TimestampableInterface, ResourceInterface
     public function getPostCode(): string;
 
     public function setPostCode(string $postCode): void;
-    
+
     public function getPhone(): string;
 
     public function setPhone(string $phone): void;

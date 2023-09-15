@@ -46,7 +46,6 @@ class Company implements CompanyInterface
     /** @var string */
     protected $comments;
 
-
     public function __construct()
     {
         $this->createdAt = new \DateTime();
@@ -106,7 +105,7 @@ class Company implements CompanyInterface
     {
         $this->postCode = $postCode;
     }
-    
+
     public function getPhone(): string
     {
         return $this->phone;
